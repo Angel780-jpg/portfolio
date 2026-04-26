@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const translations = {
   es: {
     "nav.about": "Sobre mí",
@@ -127,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-=======
+
 const translations = {
   es: {
     "nav.about": "Sobre mí",
@@ -256,4 +255,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
->>>>>>> 03d838509945a41a0a13eb795ff809ec8311b247
