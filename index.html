@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="es">
   <head>
@@ -229,3 +230,236 @@
     <script src="script.js"></script>
   </body>
 </html>
+=======
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Valencia</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">Angel Valencia</div>
+        <ul class="nav-links">
+          <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+          <li><a href="#habilidades" data-i18n="nav.skills">Habilidades</a></li>
+          <li><a href="#proyectos" data-i18n="nav.projects">Proyectos</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="lang-toggle" id="langToggle" title="Switch language">
+            <span class="lang-option active" data-lang="es">ES</span>
+            <div class="lang-slider"></div>
+            <span class="lang-option" data-lang="en">EN</span>
+          </div>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          <span data-i18n="hero.greeting">Hola, soy</span>
+          <span class="highlight">Angel Valencia</span>
+        </h1>
+        <h2 data-i18n="hero.role">Frontend Developer</h2>
+
+        <div class="cv-buttons">
+          <a
+            href="cv/Angel Valencia CV ES.pdf"
+            download="CV_Angel_Valencia_Espanol.pdf"
+            class="btn btn-primary"
+          >
+            <i class="fas fa-download"></i>
+            <span data-i18n="hero.cvEs">Descargar CV (Español)</span>
+          </a>
+          <a
+            href="cv/Angel Valencia CV EN.pdf"
+            download="CV_Angel_Valencia_English.pdf"
+            class="btn btn-secondary"
+          >
+            <i class="fas fa-download"></i>
+            <span data-i18n="hero.cvEn">Download CV (English)</span>
+          </a>
+        </div>
+
+        <div class="scroll-down">
+          <a href="#sobre-mi"><i class="fas fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="img/codigo.jpg" />
+          </div>
+          <div class="about-text">
+            <p data-i18n="about.bio">
+              Desarrollador web Front-End con conocimientos en HTML, CSS,
+              JavaScript y desarrollo de aplicaciones interactivas. Experiencia
+              previa en diseño digital, creación de contenido multimedia y
+              administración de sistemas dentro de entornos institucionales. He
+              desarrollado herramientas web funcionales como generadores de QR,
+              además de participar en proyectos open-source enfocados en
+              utilidades para desarrolladores. Actualmente estudio Ingeniería en
+              Desarrollo de Videojuegos, fortaleciendo habilidades en
+              programación, lógica y desarrollo de software.
+            </p>
+            <div class="social-links">
+              <a href="https://github.com/Angel780-jpg" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section bg-dark">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skills.title">
+          Lenguajes y Tecnologías
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon html">HTML5</div>
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon css">CSS3</div>
+            <h3>CSS</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon js">JS</div>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon csharp">C#</div>
+            <h3>C#</h3>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon cpp">C++</div>
+            <h3>C++</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projects.title">Mis Proyectos</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="img/1.png" alt="Proyecto 1" />
+            <div class="project-info">
+              <h3>Galaxy QR</h3>
+              <p data-i18n="projects.qr">Generador de codigos QR.</p>
+              <div class="tech-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Angel780-jpg/Galaxy-QR"
+                  target="_blank"
+                  data-i18n="projects.github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://angel780-jpg.github.io/Galaxy-QR/"
+                  target="_blank"
+                  data-i18n="projects.demo"
+                  >Ver Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="img/2.png" alt="Proyecto 2" />
+            <div class="project-info">
+              <h3>All Converter</h3>
+              <p data-i18n="projects.converter">Conversor de unidades.</p>
+              <div class="tech-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Angel780-jpg/Unit-converter"
+                  target="_blank"
+                  data-i18n="projects.github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://angel780-jpg.github.io/Unit-converter/"
+                  target="_blank"
+                  data-i18n="projects.demo"
+                  >Ver Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="img/3.png" alt="Proyecto 3" />
+            <div class="project-info">
+              <h3>Free Resources</h3>
+              <p data-i18n="projects.resources">
+                Proyecto open source que busca recopilar recursos gratuitos para
+                programadores.
+              </p>
+              <div class="tech-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Angel780-jpg/Community-Free-Resources-for-Devs"
+                  target="_blank"
+                  data-i18n="projects.github"
+                  >GitHub</a
+                >
+                <a
+                  href="https://angel780-jpg.github.io/Community-Free-Resources-for-Devs/"
+                  target="_blank"
+                  data-i18n="projects.demo"
+                  >Ver Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p data-i18n="footer.rights">
+          &copy; 2026 Angel Valencia. Todos los derechos reservados.
+        </p>
+        <div class="footer-cv">
+          <a href="cv/Angel Valencia CV ES.pdf" download data-i18n="footer.cvEs"
+            >CV Español</a
+          >
+          •
+          <a href="cv/Angel Valencia CV EN.pdf" download data-i18n="footer.cvEn"
+            >CV English</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+>>>>>>> 03d838509945a41a0a13eb795ff809ec8311b247
